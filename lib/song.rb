@@ -19,7 +19,7 @@ def self.count
 end
 
 def self.genres
-  @@genres.uniq{|x| x.genre}
+  @@genres.uniq
 end
 
 end
