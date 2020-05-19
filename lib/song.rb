@@ -14,6 +14,6 @@ end
 
 def count
   @@count
-end 
+end
 
 end
