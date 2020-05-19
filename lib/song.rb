@@ -17,7 +17,7 @@ def count
   @@count
 end
 
-def genre
+def genres
   @@genres.uniq{|x| x.genre}
 end
 
