@@ -14,11 +14,11 @@ def initialize (name, artist, genre)
   @@artists << @artist
 end
 
-def count
+def self.count
   @@count
 end
 
-def genres
+def self.genres
   @@genres.uniq{|x| x.genre}
 end
 
